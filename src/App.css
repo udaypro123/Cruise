@@ -1,0 +1,90 @@
+.App {
+    height: 100vh;
+    width: 100vw;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.divconation{
+    height: 100%;
+    width: 70%;
+    background-color: lightblue;
+    position: relative;
+  
+}
+.divimg{
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    z-index: 100;
+}
+.divimg img{
+    height: 100%;
+    width: 100%;
+}
+.divimg1{
+    height: 45%;
+    width: 30%;
+    position: absolute;
+    bottom: 6%;
+    right: 9%;
+    z-index: 101;
+}
+.divimg1 img{
+    height: 100%;
+    width: 100%;
+}
+.divimg2{
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    z-index: 99;
+}
+.divimg2 img{
+    height: 100%;
+    width: 100%;
+}
+.divimg3{
+    height: 30%;
+    width: 20%;
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    z-index: 101;
+}
+.divimg3 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.divimg4{
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 45%;
+    right: 6%;
+    z-index: 101;
+}
+
+.divimg4 img{
+    height: 100%;
+    width: 100%;
+}
+.divimg5{
+    height: 30%;
+    width: 20%;
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    z-index: 101;
+}
+.divimg5 img{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,91 @@
+/* SIgn IN page ----------------------*/
+
+.signcontainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signinsideconatainer {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.SignInleftpannel {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignInleftpannel img {
+    height: 60%;
+    width: 60%;
+}
+
+
+.SignInrightpannel {
+    height: 70%;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NBwcHDQ8IDQcNFREWFhURExUYHSggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDysZFRkrKysrKy0rKy0tNystLTctLSsrKysrKy0rKysrKysrKys3MisrKysrKysrKysrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAACAQADBv/EABcQAQEBAQAAAAAAAAAAAAAAAAABEQL/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIGBf/EABcRAQEBAQAAAAAAAAAAAAAAAAABEUH/2gAMAwEAAhEDEQA/APIkhO1eM0JIUiDSLFiwZrFEkLERorQpBEkKNFkBsXFbERFXGwEbCxg0Up42BooViWAOJhoAYmHYOKo0bDsQUBdLBAEsKorUc7GKjRRsaLWijKygshSNFRK0KJIWIysixikBpFkaQpERJFxZFwRMLFkURMbFkWQExsVkRMbFxsNBsawsZdVzxMdMGhoJh4mCudTDo1VEbDqUVzxMJKKFGnYNVqA0i40UYohRBYUglBlYcgwkRYSFBFiyNFiI0hY0iiMuNISIiyLjYCY2EuAGNhY2ANiWFUAMbDwQEcOjVUEp2DRQonRVQsGnUooDYVSq1AaLWgqFEhBVkKJCiMLhRIUglUpBhCFFkaLEKsVoURlorKDRWixBGLFEBjShoVMKsqiNNKDniWHRAaJ0KrUHoToKo0aY0UKNMaqh03K1INLFSEJVhRIURlYQwhKUJFiIUKDChUKRYkJEVUIFkbGWIy2LjSKA41JMAcGmNFQcJKqglKjQShSo1Vg0SGijUpCqhRpUaKNaLUit8aEJCUoUCHEZWHAhiEUGFEQosSLCoUKDCiIpRFiJSaIqIUZlBKipQSpVSqCipVaGjSGglCnQqqg0qNFGjSo1VCjSo0VElVorXEiiQUocCFEZKGBQSnCgQoiHCGKIUKBCiIawVAiGKjKqOqgtRGBkrJVVErJVVBq1KA1KtHpVg1Ko0VKNUaqjRpDVVK0StzRriEBQWnCgFEYNRKCFDgFBChxzhcolOUgWIhloRdA9WUNVEwmFtAtbU1AxajJRWtG1RUaiokGo2tUqtRKK0VVBqjRUo1aNVUtblK0GkKAUA4solKMlCgQ4iFCgFBCKUSlRClKBKUEXS0NXUQ5V0F0CYdXQXWTU0FtapalBqlqVtBtG1dG1VS1Ko2ipUrUVVtC0rQorUVGq1Bq8pVgoqKxQ5SgQtRKUOVzhSoyZQNUR0iwJVlRDhQJV0DXQ1dEOMOrAVdFtRC1rRYFqJW1cVdS1LR0MW1G1LRWoLalVUqVqNoqVK2jRWo1aNVqJV5FZVBhBpQChQIsqBlBjaMnpQNKVEOVYEqyiHqjKuoG2hpaIUUF0C1tHW0MLW0dbQxbW0dbQXU1rR0FtTU1NFW0a1S1VS1NbUtBNSsNqtRrR1aNVWaJa0oCXKsDEzAsKMyJSaKyIsKIwiwmYRlZkReVZgaMzAsSMwNUrMCRmYBRmVpOhZgSozKqUUYaiVKzKDVjMD//Z");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 35%;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.SignInrightpannel form {
+    width: 90%;
+    margin-left: 4rem;
+}
+
+.SignInrightpannel form input {
+    margin: .5rem;
+    height: 2rem;
+    width: 80%;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    background-color: rgb(224, 224, 224);
+    padding-left: 1rem;
+}
+
+.SignInrightpannel form label {
+    margin: .5rem;
+    height: 2rem;
+    width: 90%;
+    color: white;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.SignInrightpannel form button {
+    height: 2rem;
+    width: 40%;
+    margin-top: 1rem;
+    margin-left: 5rem;
+   background-color: rgb(255, 255, 255);
+    color: rgb(0, 102, 255);
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    border:1px solid rgb(67, 117, 255);
+    outline: none;
+}
+
+.SignInrightpannel span {
+    font-size: 1.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+}
